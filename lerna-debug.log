@@ -1,0 +1,15 @@
+0 silly argv {
+0 silly argv   _: [ 'create' ],
+0 silly argv   lernaVersion: '7.0.2',
+0 silly argv   '$0': 'C:\\Program Files\\nodejs\\node_modules\\lerna\\dist\\cli.js',
+0 silly argv   name: 'mod-ui'
+0 silly argv }
+1 notice cli v7.0.2
+2 verbose packageConfigs Resolving packages based on package.json "workspaces" configuration.
+3 verbose rootPath C:\Users\orange\Documents\code\lerna-mod
+4 error Error: Command failed with exit code 1: git config --get user.name
+4 error     at makeError (C:\Users\orange\AppData\Roaming\nvm\v16.20.0\node_modules\lerna\node_modules\execa\lib\error.js:59:11)
+4 error     at Function.module.exports.sync (C:\Users\orange\AppData\Roaming\nvm\v16.20.0\node_modules\lerna\node_modules\execa\index.js:186:17)
+4 error     at Object.execSync2 [as execSync] (C:\Users\orange\AppData\Roaming\nvm\v16.20.0\node_modules\lerna\node_modules\@lerna\create\dist\command.js:67:21)
+4 error     at CreateCommand.gitConfig (C:\Users\orange\AppData\Roaming\nvm\v16.20.0\node_modules\lerna\node_modules\@lerna\create\dist\command.js:4072:31)
+4 error     at CreateCommand.initialize (C:\Users\orange\AppData\Roaming\nvm\v16.20.0\node_modules\lerna\node_modules\@lerna\create\dist\command.js:4003:50)
